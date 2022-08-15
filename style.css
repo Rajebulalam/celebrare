@@ -44,6 +44,7 @@ header a {
     background-color: #fff;
     border-radius: 60px;
     border: 2px solid gray;
+    padding: 40px 25px;
 
 }
 
@@ -86,7 +87,7 @@ header a {
     position: absolute;
     box-sizing: border-box;
     padding: 5px;
-    width: 280px;
+    width: 240px;
     text-align: center;
     transition: transform 0.4s;
     -webkit-transform-style: preserve-3d;
@@ -95,8 +96,7 @@ header a {
 }
 
 .testimonials .item img {
-    width: 250px;
-    border-radius: 50%;
+    width: 275px;
     border: 2px solid #3B344D;
 }
 
@@ -311,6 +311,14 @@ header a {
 
     .feature {
         margin-top: 630px;
+    }
+
+    .testimonials .item {
+        width: 100%;
+    }
+
+    .testimonials .item img {
+        width: 250px;
     }
 
 }
